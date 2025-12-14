@@ -72,7 +72,7 @@ function checkAuthentication() {
         logoutButton.addEventListener('click', function() {
             sessionStorage.removeItem('authenticated');
             sessionStorage.removeItem('username');
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         });
 
         welcomeDiv.appendChild(logoutButton);
